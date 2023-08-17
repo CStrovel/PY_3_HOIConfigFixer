@@ -1,0 +1,71 @@
+﻿capital = 318
+
+oob = "HAI_1936"
+
+1933.12.30 = {
+	add_timed_idea = {
+		idea = great_depression
+		days = 2555
+	}
+}	
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		vanguardism = {
+			popularity = 0
+		}
+		liberalism = {
+			popularity = 0
+		}
+		conservatism = { 
+			popularity = 100
+		}
+		social_nationalism = {
+			popularity = 0
+		}
+		radical_nationalism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	corporatism
+	catholic_majority
+}
+
+create_country_leader = {
+	name = "Jacques Roumain"
+	desc = "POLITICS_JACQUES_ROUMAIN_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = martovism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sténio Vincent"
+	desc = "POLITICS_STENIO_VINCENT_DESC"
+	picture = "GFX_portrait_haiti_stenio_vincent"
+	expire = "1965.1.1"
+	ideology = national_conservatism
+	traits = {
+		#
+	}
+}

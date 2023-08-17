@@ -1,0 +1,149 @@
+﻿capital = 59
+
+oob = "HAN_1934"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
+add_ideas = {
+	corporatism
+	protestant_majority
+	
+	# Pressure
+	
+	#anarchism_pressure_1
+	#syndicalism_pressure_1
+	vanguardism_pressure_3
+	#progressivism_pressure_1
+	#liberalism_pressure_1
+	conservatism_pressure_4
+	#integralism_pressure_1
+	#social_nationalism_pressure_1
+	radical_nationalism_pressure_3
+	
+	# Partisans
+	
+	vanguardist_partisans_1
+	radical_nationalist_partisans_1
+}
+
+1933.12.30 = {
+	add_timed_idea = {
+		idea = great_depression
+		days = 2555
+	}
+}	
+
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	gw_artillery = 1
+}
+
+set_politics = {
+
+	parties = {
+		anarchism = {
+			popularity = 0
+		}
+		syndicalism = {
+			popularity = 0
+		}
+		vanguardism = {
+			popularity = 30
+		}
+		progressivism = {
+			popularity = 0
+		}
+		liberalism = {
+			popularity = 0
+		}
+		conservatism = {
+			popularity = 40
+		}
+		integralism = {
+			popularity = 0
+		}
+		social_nationalism = {
+			popularity = 0
+		}
+		radical_nationalism = {
+			popularity = 30
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Felix Reinhardt" # Randomly-generated ahistorical name
+	desc = "POLITICS_ALFRED_KLAHR_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = martovism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jannick Saudek" # Randomly-generated ahistorical name
+	desc = "POLITICS_KARL_RENNER_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sigismund Samter" # Randomly-generated ahistorical name
+	desc = "POLITICS_KARL_RENNER_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = christian_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bert Eulenburg" # Randomly-generated ahistorical name
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Klemens Ehrlinger" # Randomly-generated ahistorical name
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = volkism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Rüdiger Kiefer" # Randomly-generated ahistorical name
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trait_mountaineer trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}

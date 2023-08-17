@@ -1,0 +1,62 @@
+﻿capital = 313
+
+oob = "GUA_1936"
+
+1933.12.30 = {
+	add_timed_idea = {
+		idea = great_depression
+		days = 2555
+	}
+}	
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		vanguardism = {
+			popularity = 0
+		}
+		liberalism = {
+			popularity = 15
+		}
+		conservatism = {
+			popularity = 15
+		}
+		social_nationalism = {
+			popularity = 70
+		}
+		radical_nationalism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = social_nationalism
+	last_election = "1931.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	corporatism
+	catholic_majority
+}
+
+create_country_leader = {
+	name = "Jorge Ubico"
+	desc = "POLITICS_JORGE_UBICO_DESC"
+	picture = "GFX_portrait_guatemala_jorge_ubico"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,120 @@
+﻿capital = 101 #Greenland
+
+oob = "generic"
+
+set_research_slots = 3
+
+1933.12.30 = {
+	add_timed_idea = {
+		idea = great_depression
+		days = 2555
+	}
+}	
+
+add_ideas = {
+	disarmed_nation
+	corporatism
+	protestant_majority
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_destroyer = 1
+	early_submarine = 1
+	early_heavy_cruiser = 1
+	tech_recon = 1
+}
+
+set_convoys = 30
+set_stability = 0.75
+
+set_politics = {
+
+	parties = {
+		anarchism = {
+			popularity = 5
+		}
+		
+		syndicalism = {
+			popularity = 0
+		}
+		
+		vanguardism = {
+			popularity = 5
+		}
+		
+		progressivism = { 
+			popularity = 10
+		}
+		
+		liberalism = { 
+			popularity = 15
+		}
+		
+		conservatism = { 
+			popularity = 60
+		}
+
+		integralism = { 
+			popularity = 0
+		}
+		
+		radical_nationalism = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Sveinn Björnsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = national_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Johannes Valurson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haraldur Gudmunsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = national_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Einar Olgeirsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = martovism
+	traits = {
+		#
+	}
+}
